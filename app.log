@@ -1,0 +1,9 @@
+INFO:root:A value has been entered sin(alpha) = 0.5
+INFO:root:A value has been entered cos(alpha) = 0.8660254037844386
+DEBUG:root:The value of the tangent of the angle alpha is found = 0.5773502691896258
+INFO:root:A value has been entered sin(alpha) = 0.5
+INFO:root:A value has been entered cos(alpha) = w
+CRITICAL:root:The tangent of the angle alpha is not defined.
+INFO:root:A value has been entered sin(alpha) = 0.5
+INFO:root:A value has been entered cos(alpha) = 0
+WARNING:root:The cosine of the angle alpha = 0. The tangent is not defined.
