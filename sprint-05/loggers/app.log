@@ -1,0 +1,35 @@
+root - INFO - __init__ - Account 1 created for John Doe with initial balance 1000
+root - INFO - create_account - Account created successfully: Account pk: 1, Name: John Doe, Balance: 1000
+root - INFO - __init__ - Account 2 created for John Doe with initial balance 1000
+root - INFO - create_account - Account created successfully: Account pk: 2, Name: John Doe, Balance: 1000
+root - INFO - __del__ - Account 1 deleted.
+account_2 - INFO - deposit - Deposited 200. New balance: 1200
+account_2 - INFO - deposit - Deposited 300. New balance: 1500
+root - INFO - __init__ - Account 3 created for John Doe with initial balance 1000
+root - INFO - create_account - Account created successfully: Account pk: 3, Name: John Doe, Balance: 1000
+root - INFO - __init__ - Account 4 created for Jane Smith with initial balance 500
+root - INFO - create_account - Account created successfully: Account pk: 4, Name: Jane Smith, Balance: 500
+account_3 - INFO - deposit - Deposited 200. New balance: 1200
+account_4 - INFO - withdraw - Withdrew 300. New balance: 200
+account_4 - INFO - deposit - Deposited 100. New balance: 300
+account_3 - INFO - withdraw - Withdrew 300. New balance: 900
+root - ERROR - __init__ - AccountError: Name must be a string.
+root - ERROR - create_account - Failed to create account: Name must be a string.
+root - INFO - __del__ - Account 2 deleted.
+root - ERROR - __init__ - AccountError: Balance must be a number.
+root - ERROR - create_account - Failed to create account: Balance must be a number.
+root - ERROR - __init__ - AccountError: Initial balance cannot be negative.
+root - ERROR - create_account - Failed to create account: Initial balance cannot be negative.
+root - INFO - __init__ - Account 5 created for John Doe with initial balance 1000
+root - INFO - create_account - Account created successfully: Account pk: 5, Name: John Doe, Balance: 1000
+root - INFO - __del__ - Account 3 deleted.
+account_5 - INFO - deposit - Deposited 500. New balance: 1500
+account_5 - INFO - withdraw - Withdrew 200. New balance: 1300
+account_5 - INFO - get_balance - Checked balance for Account 5: 1300
+account_5 - INFO - get_balance - Checked balance for Account 5: 1300
+root - INFO - __init__ - Account 6 created for Jane Smith with initial balance 2000
+root - INFO - create_account - Account created successfully: Account pk: 6, Name: Jane Smith, Balance: 2000
+root - INFO - __del__ - Account 4 deleted.
+account_6 - INFO - deposit - Deposited 1000. New balance: 3000
+account_6 - INFO - withdraw - Withdrew 500. New balance: 2500
+account_6 - INFO - get_balance - Checked balance for Account 6: 2500
