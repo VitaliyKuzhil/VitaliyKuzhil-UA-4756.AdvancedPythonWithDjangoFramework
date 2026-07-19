@@ -1,7 +1,7 @@
 import math
 import logging
 
-logging.basicConfig(filename='app.log', level=logging.NOTSET)
+logging.basicConfig(filename='./sprint-05/loggers/app_task-06.log', level=logging.NOTSET)
 
 
 def findingTangent(sin_alpha, cos_alpha):

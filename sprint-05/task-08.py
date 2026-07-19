@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(filename='app.log',
+logging.basicConfig(filename='./sprint-05/loggers/app_task-08.log',
                     filemode='w',
                     level=logging.DEBUG,
                     format='%(name)s - %(levelname)s - %(message)s')
