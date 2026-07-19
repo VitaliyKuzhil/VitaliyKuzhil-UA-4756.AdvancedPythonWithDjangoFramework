@@ -1,0 +1,6 @@
+root - INFO - 3.0
+root - INFO - -13.333333333333334
+root - DEBUG - The list is empty
+root - WARNING - Division by zero
+root - INFO - 2.2
+root - CRITICAL - Incorrect data entered
