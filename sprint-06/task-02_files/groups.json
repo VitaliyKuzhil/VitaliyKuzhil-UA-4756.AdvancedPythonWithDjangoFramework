@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Python",
+        "students": [
+            {
+                "full_name": "John Dow",
+                "avg_rank": 91,
+                "courses": [
+                    "Python"
+                ]
+            },
+            {
+                "full_name": "Serena Gomez",
+                "avg_rank": 83,
+                "courses": [
+                    "Python"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Java",
+        "students": [
+            {
+                "full_name": "Samantha Smith",
+                "avg_rank": 86,
+                "courses": [
+                    "Java"
+                ]
+            },
+            {
+                "full_name": "Sofia Scrouge",
+                "avg_rank": 90,
+                "courses": [
+                    "Java"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "JavaScript",
+        "students": [
+            {
+                "full_name": "Bob Miller",
+                "avg_rank": 78,
+                "courses": [
+                    "JavaScript"
+                ]
+            },
+            {
+                "full_name": "Jane Eire",
+                "avg_rank": 75,
+                "courses": [
+                    "JavaScript"
+                ]
+            }
+        ]
+    }
+]
