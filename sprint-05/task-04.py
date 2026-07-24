@@ -1,7 +1,5 @@
 class ToSmallNumberGroupError(Exception):
-    '''
-    Custom exception for numbers less than 10 
-    '''
+    pass
 
 
 def check_number(number):
